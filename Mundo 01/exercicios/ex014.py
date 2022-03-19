@@ -1,0 +1,7 @@
+print('===== DESAFIO 14 =====')
+print('Faça um programa que converta uma temperatura digitada em °C para °F.')
+temp = float(input('\nDigite a temperatura em °C: '))
+print('-'*35)
+print('Grau Celsius = Grau Fahrenheit')
+print('{:^10}°C = {:^13}°F'.format(temp, temp * 9 / 5 + 32))
+print('-'*35)
